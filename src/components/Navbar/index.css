@@ -1,0 +1,32 @@
+.nav-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #032541;
+  color: white;
+  height: 15vh;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+}
+
+.link-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 24vw;
+}
+
+a {
+  border-bottom: none;
+  color: white;
+}
+
+.btn-el {
+  background: linear-gradient(to bottom right, #ef4765, #ff9a5a);
+  border: 0;
+  padding: 3px 7px 3px 7px;
+  color: white;
+}

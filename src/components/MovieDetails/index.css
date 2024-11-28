@@ -1,0 +1,60 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #024059;
+}
+
+.movie-list-container {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  padding-left: 10%;
+  margin-bottom: 5%;
+}
+
+.movie-img-el {
+  height: 450px;
+  margin-right: 5%;
+}
+
+.list-element {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+}
+
+.movie-details-container {
+  margin-left: 5%;
+  width: 50vw;
+}
+
+.inner-heading {
+  margin-left: 4%;
+  color: white;
+  font-family: 'Playfair Display', serif;
+}
+
+.cast-container {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-right: 5%;
+}
+
+.cast-list {
+  display: flex;
+  flex-direction: column;
+  padding: 0.8%;
+  background-color: white;
+  margin-bottom: 1%;
+  max-width: 12vw;
+  font-size: 12px;
+}
+
+.profile-img {
+  max-height: 150px;
+  object-fit: cover;
+}
